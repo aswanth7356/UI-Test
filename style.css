@@ -1,0 +1,44 @@
+.profile-image{
+    width: 40%;
+    height: 100px;
+    margin-left: 80px;
+}
+.btn{
+    width: 50%;
+    margin-left: 60px;
+}
+.Profile-head{
+    color: #fff;
+    padding: 10px;
+    font-size: medium;
+    height: 80px;
+    text-align: center;
+    background-color: red;
+    
+}
+.banner{
+    position: relative;
+    height: 100px;
+}
+#menu-bar{
+    position: absolute;
+    color: #fff;
+    margin-top: 29px;
+    margin-left: -32rem;
+    font-size: 28px;
+}
+.banner-text{
+    position: absolute;
+    color: #fff;
+    margin-top: -71px;
+    margin-left: 5rem;
+    font-size: 23px;
+}
+
+@media(max-width:400px){
+    .banner-text{
+        font-size: 18px;
+        margin-left: 2rem;
+    }
+
+}
